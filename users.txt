@@ -1,0 +1,7 @@
+admin
+password = 1234
+token = 415bf7f4b5d228c6510405ca3cc8f88cc9bdbcab
+
+someuser
+password = somepass
+token = ebfe58aab4dc150221a95951caa5de7dda60b2a3
