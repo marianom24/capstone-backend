@@ -2,9 +2,8 @@ from django.shortcuts import render
 from rest_framework import generics, viewsets
 from .serializers import MenuSerializer, BookingSerializer
 from .models import Booking, Menu
-from rest_framework.decorators import api_view
 from rest_framework.permissions import IsAuthenticated
-# Create your views here.
+
 def index(request):
     return render(request, 'index.html', {})
 
